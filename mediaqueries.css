@@ -47,14 +47,10 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     #contact,
     footer {
-      height: 40vh;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
+      padding: 0;
     }
     article {
       font-size: 1rem;
@@ -75,9 +71,6 @@
     .nav-links li a {
       font-size: 1rem;
     }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
     .logo {
       font-size: 1.5rem;
     }
@@ -87,17 +80,70 @@
       text-align: center;
     }
     .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
+      width: 250px;
+      height: 250px;
     }
     .section__text__p2 {
       font-size: 1.25rem;
     }
     .title {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
     .text-container {
       text-align: justify;
+    }
+    .skills-container {
+      grid-template-columns: 1fr;
+    }
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      padding: 0;
+    }
+    article {
+      font-size: 0.9rem;
+    }
+    .contact-info-container,
+    .btn-container {
+      flex-direction: column;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 0.9rem;
+    }
+    .logo {
+      font-size: 1.25rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: 200px;
+      height: 200px;
+    }
+    .section__text__p2 {
+      font-size: 1.1rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      font-size: 0.9rem;
+    }
+    .skill-item {
+      font-size: 0.9rem;
+    }
+    .project-title {
+      font-size: 1.2rem;
+    }
+    .project-description {
+      font-size: 0.9rem;
     }
   }

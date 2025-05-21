@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Kush Patel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Kush Patel</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Kush Patel</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-list">
+            <div class="project-card">
+                <h2 class="project-title">KP-Planning</h2>
+                <img src="./assets/assets/project-1.png" alt="KP-Planning Project" class="project-img">
+                <div class="project-skills">Key Skills: <span class="placeholder">Next.js/React.js, Javascript/Tailwind CSS, Prisma, Hugging Face, Node.js, SQLite, Netlify, REST</span></div>
+                <div class="project-description placeholder">KP-Planning is an AI-powered travel app that eases travel for people with disabilities by crafting personalized itineraries for cities around the world. </div>
+                <div class="project-links">
+                    <a href="https://kp-planning.vercel.app" class="btn btn-color-2">View Project</a>
+                    <a href="https://github.com/KushPatel52/KP-Planning" class="btn btn-color-1">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h2 class="project-title">SparkNotes AI</h2>
+                <img src="./assets/assets/notes.png" alt="Warcraft Project" class="project-img">
+                <div class="project-skills">Key Skills: <span class="placeholder">Tesseract.js, FFmpeg, TensorFlow.js, OpenCV with WebAssembly, Electron with Typescript, Firebase, WebAssembly, MediaDevices API, IndexedDB, Vite with Typescript</span></div>
+                <div class="project-description placeholder">SnapNotes AI is a groundbreaking, free desktop app that instantly turns classroom lectures and presentations into neatly organized digital notes. Leveraging advanced computer-vision and machine-learning techniques, it automatically detects, captures, and processes everything on the whiteboard or slide—text, diagrams, and even complex equations—then converts that content into searchable, shareable notes in real time.</div>
+                <div class="project-links">
+                    <a href="https://sparknot.netlify.app" class="btn btn-color-2">View Project</a>
+                    <a href="https://github.com/KushPatel52/SparkNotes-AI" class="btn btn-color-1">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h2 class="project-title">Personal Portfolio</h2>
+                <img src="./assets/assets/project-3.png" alt="Personal Portfolio" class="project-img">
+                <div class="project-skills">Key Skills: <span class="placeholder">React.js, Vite, Typescript, Tailwind CSS, Framer Motion/Redux Toolkit, HTML</span></div>
+                <div class="project-description placeholder">My Personal Portfolio (the thing ur currently on) </div>
+                <div class="project-links">
+                    <a href="https://kushpatelwebsite.netlify.app/" class="btn btn-color-2">View Project</a>
+                    <a href="https://github.com/KushPatel52/personal-portfolio" class="btn btn-color-1">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html> 
